@@ -47,7 +47,7 @@ It streamlines communication, accountability, and visibility — all from a sing
 
 ## 🧱 Architecture Diagram
 
-```mermaid
+'''mermaid
 flowchart TD
     A[User (Scrum Team)] -->|Message| B(Slack Bot)
     B --> C(API Gateway - AWS)
@@ -67,6 +67,6 @@ flowchart TD
     style G fill:#e1f5fe,stroke:#4fc3f7,stroke-width:2px
     style H fill:#ffe0b2,stroke:#ff9800,stroke-width:2px
     style I fill:#d7ccc8,stroke:#8d6e63,stroke-width:2px
-    
+
 ## 📦 Folder Structure (Planned)
 
